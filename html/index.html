@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{{.Title}}</title>
+    </head>
+    <body>
+        {{.Title}}{{.Count}}
+        <form method="POST" action="/post">
+            <h2 class="form-postiong">登録</h2>
+            <p>
+                name:<input name="name" type="text">
+            </p>
+            <p>
+                message:<input name="message" type="text">
+            </p>
+            <input type="submit"class="btn" value="Click">
+        </form>
+    </body>
+</html>

@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 	"html"
+	"html/template"
 	"log"
 	"net/http"
-	"text/template"
 )
 
 // Page 表示形式
